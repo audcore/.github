@@ -16,20 +16,19 @@
 
 声核本体源码目前不在这些公开仓库中；这里提供文档、皮肤源码和开发参考。
 
-## 独立皮肤源码
+## 按界面选择皮肤源码
 
-| 皮肤 | 类型 | 源码 |
+| 界面 | 用途 | 仓库 |
 | --- | --- | --- |
-| 表格 | web | [audcore-skin-sheet](https://github.com/audcore/audcore-skin-sheet) |
-| 网页桌面皮肤 | web | [audcore-skin-desktop](https://github.com/audcore/audcore-skin-desktop) |
-| 机架调音台 | web | [audcore-skin-rack](https://github.com/audcore/audcore-skin-rack) |
-| 节点 | web | [audcore-skin-node](https://github.com/audcore/audcore-skin-node) |
-| Studio | web | [audcore-skin-studio](https://github.com/audcore/audcore-skin-studio) |
-| Studio V2 | web | [audcore-skin-studio-v2](https://github.com/audcore/audcore-skin-studio-v2) |
-| AIRCORE | web | [audcore-skin-aircore](https://github.com/audcore/audcore-skin-aircore) |
-| Signal HUD | web | [audcore-skin-signal-hud](https://github.com/audcore/audcore-skin-signal-hud) |
-| 直播操作台 | web | [audcore-skin-live](https://github.com/audcore/audcore-skin-live) |
-| 命令终端 | web | [audcore-skin-terminal](https://github.com/audcore/audcore-skin-terminal) |
-| Audcore 98 | native | [audcore-skin-win98](https://github.com/audcore/audcore-skin-win98) |
-| 声声静听 | native | [audcore-skin-ttplayer](https://github.com/audcore/audcore-skin-ttplayer) |
-| 声核悬浮菜单 | native | [audcore-skin-floating](https://github.com/audcore/audcore-skin-floating) |
+| 表格调音台 | 每列一个通道，效果器和发送按行对齐。 | [源码](https://github.com/audcore/audcore-skin-spreadsheet-mixer) |
+| 通道条调音台 | 各通道横向并列，便于比较音量、电平和状态。 | [源码](https://github.com/audcore/audcore-skin-channel-strip-mixer) |
+| 横向机架调音台 | 通道按横向机架行排列，避免所有信息挤在窄通道条里。 | [源码](https://github.com/audcore/audcore-skin-rack-mixer) |
+| 节点连线调音台 | 拖动节点整理布局，用滚轮缩放，按住空格拖动画布。 | [源码](https://github.com/audcore/audcore-skin-node-routing) |
+| 录音棚调音台 | 采用录音台式面板，将效果器、发送和推子按区域排列。 | [源码](https://github.com/audcore/audcore-skin-recording-console) |
+| X AIR 数字调音台 | 窄通道条并列显示，推子沿用 X AIR 风格的刻度。 | [源码](https://github.com/audcore/audcore-skin-xair-mixer) |
+| 电平仪表盘 | 荧光绿配色配合醒目的电平与数值，方便观察信号状态。 | [源码](https://github.com/audcore/audcore-skin-meter-dashboard) |
+| 直播操作台 | 将常用通道置顶，减少直播时查找通道的操作。 | [源码](https://github.com/audcore/audcore-skin-live-control) |
+| 命令终端调音台 | 输入 help 查看命令，使用 use 切换当前通道。 | [源码](https://github.com/audcore/audcore-skin-command-terminal) |
+| Windows 98 桌面调音台 | 采用 Windows 98 风格的桌面、任务栏和窗口控件。 | [源码](https://github.com/audcore/audcore-skin-windows98-desktop) |
+| TTPlayer 三窗口调音台 | 主窗口控制所选通道的音量与静音，并显示实时左右电平。 | [源码](https://github.com/audcore/audcore-skin-ttplayer-mixer) |
+| 悬浮菜单调音台 | 拖动悬浮图标调整位置，右键或菜单键打开操作菜单。 | [源码](https://github.com/audcore/audcore-skin-floating-menu) |
