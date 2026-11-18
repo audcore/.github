@@ -15,3 +15,21 @@
 每款皮肤在本组织的独立仓库维护。manifest.json 统一记录身份、版本、语言和构建方法，README 提供介绍及使用说明。初次收录通过资料仓库 skins.md 的 PR 人工审核；在线版本以官方签名列表为准。
 
 声核本体源码目前不在这些公开仓库中；这里提供文档、皮肤源码和开发参考。
+
+## 独立皮肤源码
+
+| 皮肤 | 类型 | 源码 |
+| --- | --- | --- |
+| 表格 | web | [audcore-skin-sheet](https://github.com/audcore/audcore-skin-sheet) |
+| 网页桌面皮肤 | web | [audcore-skin-desktop](https://github.com/audcore/audcore-skin-desktop) |
+| 机架调音台 | web | [audcore-skin-rack](https://github.com/audcore/audcore-skin-rack) |
+| 节点 | web | [audcore-skin-node](https://github.com/audcore/audcore-skin-node) |
+| Studio | web | [audcore-skin-studio](https://github.com/audcore/audcore-skin-studio) |
+| Studio V2 | web | [audcore-skin-studio-v2](https://github.com/audcore/audcore-skin-studio-v2) |
+| AIRCORE | web | [audcore-skin-aircore](https://github.com/audcore/audcore-skin-aircore) |
+| Signal HUD | web | [audcore-skin-signal-hud](https://github.com/audcore/audcore-skin-signal-hud) |
+| 直播操作台 | web | [audcore-skin-live](https://github.com/audcore/audcore-skin-live) |
+| 命令终端 | web | [audcore-skin-terminal](https://github.com/audcore/audcore-skin-terminal) |
+| Audcore 98 | native | [audcore-skin-win98](https://github.com/audcore/audcore-skin-win98) |
+| 声声静听 | native | [audcore-skin-ttplayer](https://github.com/audcore/audcore-skin-ttplayer) |
+| 声核悬浮菜单 | native | [audcore-skin-floating](https://github.com/audcore/audcore-skin-floating) |
